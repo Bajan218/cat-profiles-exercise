@@ -1,0 +1,74 @@
+.profile {
+  border: none;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+  font-family: arial;
+}
+
+.profile-picture {
+  width: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 20px;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  margin-left: 7px;
+  font-weight: bold;
+}
+
+.friends-number {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-left: 4px;
+  color: gray;
+  margin-bottom: 0px;
+}
+
+.addfriend-button {
+  background-color: rgb(49, 125, 248);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-left: 7px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  width: 110px;
+  height: 30px;
+  opacity: 0.8;
+}
+
+.addfriend-button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.addfriend-button:active {
+  opacity: 0.5;
+}
+
+
+
+.Anka {
+  width: 25px;
+  height: 25px;
+  margin-left: 7px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.mutual-picture {
+  margin-top: 0px;
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  column-gap: 3px;
+  
+}
+
+.picture-mutual-grid {
+  display: grid;
+        grid-template-columns: 30px 1fr;
+        column-gap: 5px;
+        row-gap: 10px;
+        margin-top: 6px;
+}
